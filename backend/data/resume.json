@@ -1,0 +1,18 @@
+{
+  "name": "Mosaraf Hossain",
+  "title": "Full-Stack Developer & AI Enthusiast",
+  "email": "mosaraf@example.com",
+  "phone": "+91-98765-43210",
+  "location": "Hyderabad, India",
+  "summary": "Passionate about building products that matter. Currently exploring LLMs, RAG and modern web stacks.",
+  "skills": ["Python", "FastAPI", "React", "TypeScript", "Tailwind", "PostgreSQL", "LangChain", "LLMs"],
+  "experience": [
+    "2023–present | Backend & AI Engineer at Startup XYZ",
+    "2021–2023 | Full-Stack Developer at Tech Corp"
+  ],
+  "projects": [
+    "AI Resume Chatbot – this very portfolio!",
+    "Personal Finance Tracker with AI insights",
+    "Real-time collaborative whiteboard"
+  ]
+}
