@@ -59,3 +59,50 @@
     100% { background-position: 0% 50%; }
   }
 }
+/* Light mode support 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --text-primary: #2acc15;
+    --text-secondary: #3ddc11;
+    --accent: #0066cc;
+    --accent-glow: rgba(220, 9, 9, 0.86);
+    --neon-purple: #7c3aed;
+    --neon-purple-glow: rgba(79, 7, 203, 0.877);
+  }
+
+  .glass {
+    background: rgb(11, 56, 255);
+    border: 1px solid rgb(241, 6, 6);
+    box-shadow: 0 8px 32px rgba(232, 8, 8, 0.863);
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, #0b85ff, #1271ee, #1587f9);
+  }
+}
+
+
+/* When dark mode toggle is off (if you have manual toggle) 
+body.light {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #0d0d0e;
+  --accent: #0066cc;
+  --accent-glow: rgba(0, 0, 0, 0.829);
+  --neon-purple: #7c3aed;
+  --neon-purple-glow: rgba(94, 1, 255, 0.932);
+}
+
+body.light .glass {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 3, 3, 0.877);
+  box-shadow: 0 8px 32px rgba(216, 8, 8, 0.812);
+}
+
+body.light .gradient-bg {
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0, #f1f5f9);
+}
+*/

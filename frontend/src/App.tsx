@@ -6,15 +6,15 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <div className={`${darkMode ? 'bg-gray-950 text-gray-100' : 'bg-gray-50 text-gray-900'} min-h-screen font-mono`}>
-      {/* Dark/Light toggle */}
+    /*<div className={`${darkMode ? 'bg-gray-950 text-gray-100' : 'bg-gray-50 text-gray-900'} min-h-screen font-mono`}>
+      /* Dark/Light toggle 
       <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="fixed top-4 right-4 z-50 px-4 py-2 rounded-full bg-gray-800/80 text-sm hover:bg-gray-700 transition"
+       onClick={() => setDarkMode(!darkMode)}
+       className="fixed top-4 right-4 z-50 px-4 py-2 rounded-full bg-gray-800/80 text-sm hover:bg-gray-700 transition"
       >
         {darkMode ? '☀️ Light' : '🌙 Dark'}
       </button>
-
+*/
       <div className="max-w-4xl mx-auto px-6 py-16 md:py-24">
         {/* Header / Name */}
         <header className="mb-16 text-center md:text-left">
@@ -81,7 +81,7 @@ export default function App() {
               },
               {
                 title: "Attendance Percentage Calculator",
-                link: null,
+                link: "https://github.com/mosa12/Hitam-Attendance-Calculator-ph1",
                 desc: "Android application developed in Kotlin to calculate attendance percentage and required classes to meet threshold. Advanced version includes Firebase integration for persistent records.",
                 tags: ["Kotlin", "Android Studio", "Firebase", "XML UI"]
               }
@@ -195,6 +195,5 @@ export default function App() {
           © 2026 Md Mosaraf Hossain • Built with React, Tailwind & Groq AI
         </footer>
       </div>
-    </div>
   );
 }
