@@ -58,6 +58,43 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
+  /* Force readable chat text colors */
+.chat-message-user,
+.chat-message-bot,
+.chat-input,
+.chat-bubble,
+.message-text,
+.assistant-message,
+.user-message {
+  color: #e2e8f0 !important;          /* light gray/white for dark background */
+  background-color: #1e293b !important; /* darker bubble bg */
+}
+
+.chat-input::placeholder {
+  color: #94a3b8 !important;          /* readable placeholder */
+}
+
+/* If background is light in some mode */
+body.light .chat-message-user,
+body.light .chat-message-bot,
+body.light .chat-bubble {
+  color: #0f172a !important;          /* dark text on light bg */
+  background-color: #f1f5f9 !important;
+}
+
+/* Bot header / title fix */
+#ask-ai-title,
+.powered-by {
+  color: #00f0ff !important;          /* bright accent for visibility */
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+}
+
+/* Input field text */
+textarea, input[type="text"] {
+  color: #ffffff !important;
+  background-color: #111827 !important;
+  border: 1px solid #00f0ff33 !important;
+}
 }
 /* Light mode support 
 @media (prefers-color-scheme: light) {
