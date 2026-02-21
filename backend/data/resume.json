@@ -1,18 +1,32 @@
 {
-  "name": "Mosaraf Hossain",
-  "title": "Full-Stack Developer & AI Enthusiast",
-  "email": "mosaraf@example.com",
-  "phone": "+91-98765-43210",
+  "name": "Md Mosaraf Hossain",
+  "title": "Final-Year CSE Student & Developer",
+  "email": "rtmosaraf@gmail.com",
+  "phone": "+91 7488795577",
   "location": "Hyderabad, India",
-  "summary": "Passionate about building products that matter. Currently exploring LLMs, RAG and modern web stacks.",
-  "skills": ["Python", "FastAPI", "React", "TypeScript", "Tailwind", "PostgreSQL", "LangChain", "LLMs"],
-  "experience": [
-    "2023–present | Backend & AI Engineer at Startup XYZ",
-    "2021–2023 | Full-Stack Developer at Tech Corp"
+  "linkedin": "linkedin.com/in/mosaraf1",
+  "github": "github.com/mosa12",
+  "summary": "Final-year CSE student with strong skills in Kotlin, Firebase, web design, UI/UX, Ethical Hacking. Developed multiple self-initiated projects to solve real-world problems, demonstrating initiative, creativity, and practical application of technical knowledge. Looking for opportunities in software development or web/mobile application roles and in cybersecurity.",
+  "skills": [
+    "Management: Roadmap Planning, Development Strategy, Research",
+    "Programming & Development: Python, Java, Kotlin, XML, HTML, CSS, Firebase, API Integration",
+    "Other Skills: Kali Linux, Ethical Hacking, Git, Debugging & Testing, Web Hosting and Deployment, Android Studio"
   ],
+  "experience": [],
   "projects": [
-    "AI Resume Chatbot – this very portfolio!",
-    "Personal Finance Tracker with AI insights",
-    "Real-time collaborative whiteboard"
+    "Online Scams Awareness Platform (Self-Initiated): https://solveit257.wixsite.com/online-scams - Designed and developed an informational website to raise awareness about online scams, phishing, and digital fraud. Created structured content explaining common scam types, warning signs, and prevention strategies. Built using Wix with responsive design. Focused on improving cybersecurity awareness through clear UI and educational content.",
+    "Reuse-Mee (Self-Initiated): https://solveit257.wixsite.com/reuse-mee - Designed and developed a web application to help users reuse items by connecting students on the same campus. Built using Wix / HTML / CSS / JavaScript / backend, database. Implemented user listings, item posting, and contact workflows. Improved accessibility with responsive UI.",
+    "Oxford Education Consultancy Website (Self-Driven Freelance): https://solveit257.wixsite.com/oecc - Designed and developed a responsive informational website for a startup education consultancy in Kolkata. Built using Wix. Multi-page layout: Home, Courses (MBBS/B.Tech/Nursing), About, Contact, Enrollment form. Improved usability with clear navigation and CTAs. Collaborated to align with business needs.",
+    "Attendance Percentage Calculator (Android App, Self-Initiated): https://github.com/mosa12/Hitam-Attendance-Calculator-ph1 Developed an Android app in Kotlin to calculate attendance percentages and determine classes needed to meet thresholds. Integrated Firebase for data storage in advanced versions. Technologies: Kotlin, Android Studio, Firebase, XML (UI Design)."
+  ],
+  "education": [
+    "B.Tech in Computer Science & Engineering: Hyderabad Institute of Technology and Management, Hyderabad | 2022 – 2026",
+    "Intermediate (12th / Higher Secondary): English Oriental Academy, West Bengal | 2020 – 2022 | 56%",
+    "Matriculation (10th / SSC): Delhi Public School, West Bengal | 2020 | 73%"
+  ],
+  "languages": [
+    "English: Professional Working Proficiency",
+    "Hindi: Conversational",
+    "Bengali: Native"
   ]
 }

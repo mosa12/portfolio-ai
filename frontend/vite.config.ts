@@ -1,12 +1,15 @@
 // vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'  // ← this plugin does everything
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    tailwindcss(),   // ← enables Tailwind automatically
+  ],
   server: {
-    host: true,          // helps with localhost binding issues on Windows
+    host: true,   // helps with localhost / network access
     port: 5173,
   },
 })
