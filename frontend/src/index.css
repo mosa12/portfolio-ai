@@ -3,9 +3,9 @@
 @layer base {
   :root {
     --bg-primary: #0a0e17;
-    --bg-secondary: #111827;
-    --text-primary: #e2e8f0;
-    --text-secondary: #94a3b8;
+    --bg-secondary: #0d0d0d;
+    --text-primary: #050505;
+    --text-secondary: #000000;
     --accent: #00f0ff;
     --accent-glow: rgba(0, 240, 255, 0.2);
     --neon-purple: #c084fc;
